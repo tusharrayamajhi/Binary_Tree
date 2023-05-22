@@ -31,6 +31,6 @@ public class lowestcmonansestorFast {
         root.left.right =new Node(5);
         root.right.left = new Node(6);
         root.right.right =new Node(7);
-        System.out.println((commonanestor(root, 4, 8)).data);
+        System.out.println((commonanestor(root, 4, 2)).data);
     }
 }
